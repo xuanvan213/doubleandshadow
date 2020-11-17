@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save leveluptoggle
+npm install --save doubleandshadow
 ```
 
 ## Usage
@@ -15,12 +15,12 @@ npm install --save leveluptoggle
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'leveluptoggle'
-import 'leveluptoggle/dist/index.css'
+import DoubleAndShadow from 'doubleandshadow'
+import 'doubleandshadow/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <DoubleAndShadow text='cat.png' />
   }
 }
 ```
